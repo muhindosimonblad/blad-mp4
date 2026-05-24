@@ -315,7 +315,7 @@ font-weight: 600;
 }
 /*---------------------------------blog page----------------------*/
 .preview{
-  display: flex;
+  display: inline-block;
  
 
 }
@@ -336,6 +336,10 @@ font-weight: 600;
 .preview p{
   padding: 4%;
   font-size: 18px;
+}
+.preview img{
+  height: 400px;
+  width: 80%;
 }
 .blog-links{
   width: 60%;
