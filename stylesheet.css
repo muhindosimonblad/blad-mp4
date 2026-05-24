@@ -114,16 +114,16 @@ small{
 
 /*-------------------vision and mission--------------------*/
 .vis{
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   position: relative;
   align-items: center;
-  margin-right: 15%;
-  justify-items: normal;
+  margin-right: 2%;
    
 }
 
 .flex{
+  width: 40%;
    background-image: linear-gradient(rgba(4,3,40,0.9),rgba(4,3,40,0.5));
    border-radius: 12px;
    padding: 1% 1%;
