@@ -327,7 +327,7 @@ font-weight: 600;
 }
 .blog-dis{
   padding: 2% 2%;
-  width: 60%;
+  width: 80%;
   font-size: 14px;
 }
 .article{
@@ -339,7 +339,7 @@ font-weight: 600;
 }
 .preview img{
   height: 400px;
-  width: 80%;
+  width: 60%;
 }
 .blog-links{
   width: 60%;
