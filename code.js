@@ -67,7 +67,7 @@ function login(){
     alert("please fill in all fields");
   } else{
     alert("log in successfull!");
-    window.location.href="web.html"
+    window.location.href="home.html"
   }
 }
 
