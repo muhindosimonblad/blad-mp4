@@ -59,15 +59,25 @@ function showlogin(){
   document.getElementById("loginform").classList.remove("hidden");
 }
 
+
+const correctpassword='blad2026';
 function login(){
   let username = document.getElementById("loginusername").value;
   let password = document.getElementById("loginpassword").value;
+  let correctpassword = document.getElementById("loginpassword").value;
+  
 
   if(username==="" || password===""){
     alert("please fill in all fields");
   } else{
-    alert("log in successfull!");
-    window.location.href="home.html"
+    if(password===correctpassword){
+      localStorage.setItem('loggedIn'.'true');
+      window.location.href=home.html;
+    } else {
+      document.getElementById("error").innerText='wrong password';
+    }
+}
+      
   }
 }
 
