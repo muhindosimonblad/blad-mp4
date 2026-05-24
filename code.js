@@ -78,8 +78,6 @@ function login(){
     }
 }
       
-  }
-}
 
 function signup(){
   let username = document.getElementById("signupusername").value;
