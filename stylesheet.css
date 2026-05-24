@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.page{
+  width: 100%;
+  background-image: linear-gradient(rgba(4,3,40,0.5),rgba(4,3,40,0.5));
+  
+
+
+}
+/*--------------nav links--------------*/
+.nav{
+ align-content: right;
+}
+.nav ul{
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  list-style: none;
+  margin: o;
+  padding: 1% 2%;
+  text-decoration: none;
+  
+}
+.nav ul a{
+  padding: 2% 2%;
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+transition: 0.9s;
+
+}
+.nav ul a:hover{
+  border-radius: px;
+  color: blue;
+  background-color: lightgreen;
+}
+.nav img{
+  padding: 2% 2%;
+  text-align: left;
+  
+  height: 10vh;
+  width: 10vh;
+  transition: 0.9s;
+}
+.nav img:hover{
+  width: 11vh;
+  height: 11vh;
+}
+.logo{
+  margin-left: 4%;
+  width: 8vh;
+  height: 10vh;
+    border-radius: 10px;
+  }
+
+/*-------------------header-------------------*/
+
+.head{
+  height: 60vh;
+  text-align: center;
+  margin-top: 7%;
+  background-image: linear-gradient(rgba(4,3,40,0.5),rgba(4,3,40,0.5));
+  color: chartreuse;
+  border-radius: 12px;
+  padding: 2% 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+small{
+  color: blanchedalmond;
+  font-size: 20px;
+}
+
+.nav p{
+  color: chartreuse;
+  text-align: center;
+  color: palegoldenrod;
+  font-size: 26px;
+}
+.nav h3{
+  text-align: center;
+  font-size: 37px;
+}
+.head h4{
+  padding: 2% 4%;
+  color: chartreuse;
+  font-size: 27px;
+  text-align: center;
+}
+.contact{
+  text-align: center;
+  font-size: 27px;
+  
+}
+.contact a{
+  cursor: pointer;
+  color: black;
+  border-radius: 12px;
+  background-color: palegoldenrod;
+  padding: 2% 5%;
+  transition: 0.9s;
+  text-decoration: none;
+  
+}
+.contact a:hover{
+  color: chartreuse;
+  background-color: black;
+  font-size: 30;
+}
+
+
+/*-------------------vision and mission--------------------*/
+.vis{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  margin-right: 15%;
+  justify-items: normal;
+   
+}
+
+.flex{
+   background-image: linear-gradient(rgba(4,3,40,0.9),rgba(4,3,40,0.5));
+   border-radius: 12px;
+   padding: 1% 1%;
+   
+
+}
+.flex h3{
+  color: chartreuse;
+  text-align: center;
+  font-size: 27px;
+}
+.flex p{
+  font-size: 18px;
+  color: blanchedalmond;
+}
+
+/*----------------------------------about-------------------*/
+
+.about{
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 1% 1%;
+  border-radius: 8px;
+
+}
+.about h4{
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+.about p{
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+/*-------------------------table-----------------*/
+.table h3{
+  color: black;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+  margin-left: 15%;
+  table-layout: ;
+  border: 1px solid #333;
+  background-image: linear-gradient(rgba(3,4,50,0.8),rgba(4,5,50,0.8));
+  margin-right: 15%;
+  padding: 2% 2%;
+   margin-right: 15%;
+  width: 70%;
+  align-items: center;
+  border-radius: 13px;
+
+}
+th{
+  padding: 1% 2%;
+  border: 1px solid;
+  color: white;
+  font-size: 20px;
+}
+td{
+   padding: 1% 2%;
+  border: 1px solid;
+  font-size: 18px;
+  color: white;
+}
+
+.events{
+  margin-left: 50%;
+  
+}
+.events h3{
+  font-size: 25px;
+  font-weight: 700;
+}
+.events p{
+  font-size: 20px;
+  font-weight: 600;
+}
+.events img{
+  width: 90%;
+  height: 50vh;
+  transition: 0.9s;
+ 
+}
+.events img:hover{
+  width: 95%;
+  height: 54vh;
+
+}
+.documents a{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*---------------------------------------------location-------------------------------------*/
+.location{
+  background: darkblue;
+  color: white;
+}
+.location h3{
+  margin-left: 10%;
+  font-size: 24px;
+  font-family: arial;
+}
+.location p{
+  font-family: arial;
+  margin-left: 10%;
+  font-size: 18px;
+}
+#backtotop{
+ 
+  margin-left: 80%;
+  background: white;
+  padding: 1% 2%;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: 0.9s;
+}
+#backtotop:hover{
+  background: pink;
+  color: blue;
+}
+/*-------------------------------NAV pages-------------------------------*/
+.pal{
+  width: 100%;
+  height: ;
+  background-image: ;
+}
+.all{
+  cursor: ;
+  width: 100%;
+  height: 33vh;
+  background-image: linear-gradient(rgba(4,3,40,0.7),rgba(4,3,40,0.5)),url(img/page\ \(4\).jpg);
+  
+}
+.all h1{
+  font-size: 30px;
+  text-align: center;
+  color: chartreuse;
+}
+
+/*-----------------------------------------about us page-----------------------------*/
+.flex-img{
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 15px;
+  color: white;
+  background-image: linear-gradient(rgba(4,3,40,0.8),rgba(4,3,40,0.8));
+}
+img{
+  border-radius: 12px;
+  
+}
+.para p{
+  padding: 2% 1%;
+  height: 100px;
+background-color: antiquewhite;
+margin-left: 5%;
+margin-right: 10%;
+border-radius: 8px;
+font-size: 18px;
+font-weight: 600;
+}
+
+/*-------------------------------fees structure page---------------------------*/
+.fee h3{
+  font-size: 26px;
+  text-align: center;
+  padding: 2% 2%;
+}
+/*---------------------------------blog page----------------------*/
+.preview{
+  display: flex;
+ 
+
+}
+.meta{
+  padding: 2%;
+}
+.display{
+  display: flex;
+}
+.blog-dis{
+  padding: 2% 2%;
+  width: 80%;
+  font-size: 14px;
+}
+.article{
+  padding: 2% 2%;
+}
+.preview p{
+  padding: 4%;
+  font-size: 18px;
+}
+.blog-links{
+  width: 60%;
+  text-align: left;
+  margin-left: 30%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+.blog-links a{
+  text-decoration: none;
+  transition: 0.9s;
+}
+.blog-links a:hover{
+  background-color: pink;
+
+}
+.meta h2{
+  font-size: 22px;
+  font-weight: 600;
+}
+.meta h2 a{
+  text-decoration: none;
+  background-color: khaki;
+  border-radius: 7px;
+  padding: 1% 2%;
+  transition: 0.9s;
+}
+.meta h2 a:hover{
+  background-color: darkseagreen;
+
+}
+.blog-dis a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 800;
+  background-color: khaki;
+  padding: 2% 2%;
+  border-radius: 8px;
+transition: 0.9s;
+
+}
+.blog-dis a:hover{
+  background-color: darksalmon;
+
+}
+.documents{
+  padding: 2% 2%;
+  background-color: beige;
+  height: 48vh;
+  width: 80%;
+  border-radius: 12px;
+  margin-left: 5%;
+}
+
+.documents a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.documents h3{
+  color: blue;
+  font-size: 22px;
+}
+
+
+/*-----------------------------------------contactt page---------------------------*/
+.form-design{
+
+  background: peachpuff;
+  width: 70%;
+  margin-left: 10%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+
+}
+input, textarea{
+  width: 60%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  margin-left: 10%;
+  
+}
+button{
+  cursor: pointer;
+ padding: 1% 2%;
+ background: blue;
+ border-radius: 10px;
+ width: 200px;
+ color: white;
+ font-size: 17px;
+ margin-left: 10%;
+ transition: 0.9s;
+}
+button:hover{
+  background: hotpink;
+  color: black;
+}
+input::placeholder{
+  color: lightblack;
+  font-size: 16px;
+  text-align: ;
+  font-style: italic;
+}
+
+/*---------------------------log in / sign up--------------------------*/
+.login{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.container{
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 50%;
+  border: 1px solid #ccc;
+}
+.container h2{
+  text-align: center;
+}
+.toggle{
+  text-align: center;
+  margin-top: 10px;
+  color: blue;
+  cursor: pointer;
+}
+.hidden{
+  display: none;
+}
+.container h3{
+  text-align: center;
+  color: blue;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+

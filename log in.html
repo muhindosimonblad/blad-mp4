@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <section class="login">
+    <div class="container">
+      <br>
+      <h3>BLAD ACADEMY SEC. SCH.</h3>
+      <br><br>
+      <!--------------------------------login------------------------->
+      <div id="loginform">
+        <h2>Log in</h2>
+        <br>
+        <label for="">User name</label><br>
+        <input type="text" id="loginusername" placeholder="Enter username">
+        <br><br>
+         <label for="">Password</label><br>
+        <input type="password" id="loginpassword" placeholder="Enter password">
+        <br><br>
+        <button onclick="login()">Log in</button>
+        <p class="toggle" onclick="showsignup()">Don't have an account? Sighn up</p>
+
+      </div>
+
+      <!--------------------------------sign up form------------------------->
+<div class="hidden" id="signupform">
+  <h2>Sign Up</h2>
+  <br>
+  <label for="">user name</label> 
+  <br>
+  <input type="text" id="signupusername" placeholder="choose user name">
+<br><br><br>
+<label for="">E-mail</label>
+<br>
+  <input type="email" id="signupemail" placeholder="muhindosimonblad@gmail.com">
+
+  <br><br><br>
+  <label for="">Password</label>
+  <br>
+  <input type="password" id="signuppassword" placeholder="password">
+<br><br>
+  <button onclick="signup()">Sign up</button>
+<p class="toggle" onclick="showlogin()">
+Already have an account? Log in
+</p>
+</div>
+
+    </div>
+
+  </section>
+
+  <script src="code.js"></script>
+  
+</body>
+</html>
