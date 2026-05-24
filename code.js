@@ -146,6 +146,7 @@ function login(){
   let users=JSON.parse(localStorage.getItem("users")) || [];
     if(!users[username]){
       alert("user not found. please sign up first.");
+      showsignup();
       return;
       }
 
