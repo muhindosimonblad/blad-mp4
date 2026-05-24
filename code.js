@@ -118,14 +118,14 @@ function signup(){
 
 
     //check user if already exist
-    let users=JSON.parse(localStorage.getItem("users")) || [];
+    let users=JSON.parse(localStorage.getItem("users")) || {};
     if(users[username]){
       alert("user name already taken");
       return;
       }
 
       //save users
-      user[username]={password:password,email:email};
+      users[username]={password:password,email:email};
       localStorage.setItem("users",JSON.stringify(users));
       alert("account created successfully");
       showlogin();
