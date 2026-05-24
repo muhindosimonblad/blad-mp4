@@ -64,7 +64,7 @@ function showlogin(){
 function login(){
   let username = document.getElementById("loginusername").value;
   let password = document.getElementById("loginpassword").value;
-  let correctpassword = document.getElementById("loginpassword").value;
+  const correctpassword = '1234';
 
   if(username==="" || password===""){
     alert("please fill in all fields");
