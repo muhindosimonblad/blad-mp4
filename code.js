@@ -64,18 +64,15 @@ function showlogin(){
 function login(){
   let username = document.getElementById("loginusername").value;
   let password = document.getElementById("loginpassword").value;
-  const correctpassword = '1234';
 
   if(username==="" || password===""){
     alert("please fill in all fields");
   } else{
-    if(password===correctpassword){
-      localStorage.setItem('loggedIn','true');
-      window.location.href='home.html';
-    } else {
-      document.getElementById("error").innerText='wrong password';
-    }
+    alert("successfull log in");
+    windows.location.href="home.html";
+  }
 }
+   
       
 
 function signup(){
