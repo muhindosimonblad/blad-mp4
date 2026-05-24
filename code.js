@@ -7,8 +7,8 @@ function sendmessage() {
   let message = document.getElementById("message").value;
   
   let body= "name:"+name+
-  "%0D%0DEmail:"+email+
-  "%0D%0DMessage:"+message;
+  "%0D%0AEmail:"+email+
+  "%0D%0AMessage:"+message;
 
   window.location.href= "mailto:muhindosimon949@gmail.com?subject=contactForm&body="+ body;
 }
@@ -36,7 +36,7 @@ if(text==="contact"){
 window.location.href="blog.html"
 }
 else if(text==="blad academy"){
-window.location.href="web.html"
+window.location.href="home.html"
 }
 else if(text==="about"){
 window.location.href="about.html"
