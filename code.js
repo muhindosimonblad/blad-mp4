@@ -42,7 +42,7 @@ else if(text==="about"){
 window.location.href="about.html"
 }
 else{
-  alert("soory, we are unable to find your search on this website")
+  alert("sorry, we are unable to find your search on this website")
 }
 }
 
