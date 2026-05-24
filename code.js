@@ -36,7 +36,7 @@ if(text==="contact"){
 window.location.href="blog.html"
 }
 else if(text==="blad academy"){
-window.location.href="web.html"
+window.location.href="home.html"
 }
 else if(text==="about"){
 window.location.href="about.html"
@@ -67,7 +67,7 @@ function login(){
     alert("please fill in all fields");
   } else{
     alert("log in successfull!");
-    window.location.href="web.html"
+    window.location.href="home.html"
   }
 }
 
