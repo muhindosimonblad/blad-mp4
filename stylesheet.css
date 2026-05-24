@@ -143,10 +143,11 @@ small{
 /*----------------------------------about-------------------*/
 
 .about{
+  display: 100%;
   background-color: white;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding: 1% 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 1%;
   border-radius: 8px;
 
 }
@@ -273,12 +274,12 @@ td{
 
 /*-----------------------------------------about us page-----------------------------*/
 .flex-img{
-  padding: 2% 2%;
-  display: flex;
+  text-align: center;
+  padding: 2%;
+  display: inline-block;
   justify-content: space-between;
   position: relative;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 100%;
   border-radius: 15px;
   color: white;
   background-image: linear-gradient(rgba(4,3,40,0.8),rgba(4,3,40,0.8));
@@ -298,6 +299,10 @@ font-size: 18px;
 font-weight: 600;
 }
 
+.image img{
+  height: 500px;
+  width: 70%;
+}
 /*-------------------------------fees structure page---------------------------*/
 .fee h3{
   font-size: 26px;
