@@ -303,6 +303,10 @@ font-weight: 600;
   height: 500px;
   width: 70%;
 }
+.image p{
+  margin: 4%;
+  text-align: left;
+}
 /*-------------------------------fees structure page---------------------------*/
 .fee h3{
   font-size: 26px;
