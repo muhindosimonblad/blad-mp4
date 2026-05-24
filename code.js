@@ -7,8 +7,8 @@ function sendmessage() {
   let message = document.getElementById("message").value;
   
   let body= "name:"+name+
-  "%0D%0AEmail:"+email+
-  "%0D%0AMessage:"+message;
+  "%0D%0DEmail:"+email+
+  "%0D%0DMessage:"+message;
 
   window.location.href= "mailto:muhindosimon949@gmail.com?subject=contactForm&body="+ body;
 }
@@ -36,13 +36,13 @@ if(text==="contact"){
 window.location.href="blog.html"
 }
 else if(text==="blad academy"){
-window.location.href="home.html"
+window.location.href="web.html"
 }
 else if(text==="about"){
 window.location.href="about.html"
 }
 else{
-  alert("sorry, we are unable to find your search on this website")
+  alert("soory, we are unable to find your search on this website")
 }
 }
 
@@ -59,8 +59,6 @@ function showlogin(){
   document.getElementById("loginform").classList.remove("hidden");
 }
 
-
-
 function login(){
   let username = document.getElementById("loginusername").value;
   let password = document.getElementById("loginpassword").value;
@@ -68,12 +66,10 @@ function login(){
   if(username==="" || password===""){
     alert("please fill in all fields");
   } else{
-    alert("successfull log in");
-    windows.location.href="home.html";
+    alert("log in successfull!");
+    window.location.href="web.html"
   }
 }
-   
-      
 
 function signup(){
   let username = document.getElementById("signupusername").value;
