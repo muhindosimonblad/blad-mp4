@@ -172,14 +172,14 @@ small{
 }
 table{
   border-collapse: collapse;
-  margin-left: 15%;
+  margin-left: 5%;
   table-layout: ;
   border: 1px solid #333;
   background-image: linear-gradient(rgba(3,4,50,0.8),rgba(4,5,50,0.8));
   margin-right: 15%;
   padding: 2% 2%;
    margin-right: 15%;
-  width: 70%;
+  width: 90%;
   align-items: center;
   border-radius: 13px;
 
