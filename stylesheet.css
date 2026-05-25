@@ -70,14 +70,14 @@ transition: 0.9s;
   
 }
 small{
-  color: blanchedalmond;
+  color: white;
   font-size: 20px;
 }
 
 .nav p{
   color: chartreuse;
   text-align: center;
-  color: palegoldenrod;
+  color: white;
   font-size: 26px;
 }
 .nav h3{
