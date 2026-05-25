@@ -200,7 +200,7 @@ td{
 }
 
 .events{
-  margin-left: 50%;
+  margin-left: 20%;
   
 }
 .events h3{
@@ -223,6 +223,7 @@ td{
 
 }
 .documents a{
+
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -391,7 +392,7 @@ transition: 0.9s;
 .documents{
   padding: 2% 2%;
   background-color: beige;
-  height: 48vh;
+  height: ;
   width: 80%;
   border-radius: 12px;
   margin-left: 5%;
