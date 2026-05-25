@@ -82,7 +82,7 @@ small{
 }
 .nav h3{
   text-align: center;
-  font-size: 37px;
+  font-size: 30px;
 }
 .head h4{
   padding: 2% 4%;
@@ -187,14 +187,14 @@ table{
 th{
   color: chartreuse;
   padding: 1%;
-  border: none;
+  border: 3px solid white;
   font-size: 25px;
     text-align: left;
 }
 td{
 
    padding: 1%;
-  border: none;
+  border: 3px solid white;
   font-size: 18px;
   color: white;
 }
