@@ -69,6 +69,20 @@ transition: 0.9s;
   margin-right: 15%;
   
 }
+.app-name{
+  margin-top: 4px;
+  font-size: 11px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.app-grid{
+  margin: 10px;
+  gap: 27px;
+  padding: 15px;
+}
+
 small{
   color: white;
   font-size: 20px;
@@ -365,6 +379,7 @@ font-weight: 600;
   font-weight: 600;
 }
 .meta h2 a{
+  width: ;
   text-decoration: none;
   background-color: khaki;
   border-radius: 7px;
@@ -379,7 +394,6 @@ font-weight: 600;
   text-decoration: none;
   font-size: 17px;
   font-weight: 800;
-  background-color: khaki;
   padding: 2% 2%;
   border-radius: 8px;
 transition: 0.9s;
@@ -390,8 +404,9 @@ transition: 0.9s;
 
 }
 .documents{
+  background-color: none;
+  text-align: left;
   padding: 2% 2%;
-  background-color: beige;
   height: ;
   width: 80%;
   border-radius: 12px;
@@ -402,6 +417,7 @@ transition: 0.9s;
   text-decoration: none;
   color: black;
   font-size: 18px;
+  background-color: none;
 }
 .documents h3{
   color: blue;
