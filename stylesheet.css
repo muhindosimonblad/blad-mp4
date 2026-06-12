@@ -187,11 +187,9 @@ small{
 }
 table{
   border-collapse: collapse;
-  margin-left: 2%;
   border: none;
   border: 1px solid #333;
   background-image: linear-gradient(rgba(3,4,50,0.8),rgba(4,5,50,0.8));
-  padding: 2% 2%;
   width: 90%;
   align-items: center;
   border-radius: 13px;
