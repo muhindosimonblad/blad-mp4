@@ -59,14 +59,15 @@ transition: 0.9s;
 
 .head{
   height: ;
+  width: 88%;
   text-align: center;
   margin-top: 7%;
   background-image: linear-gradient(rgba(4,3,40,0.5),rgba(4,3,40,0.5));
   color: chartreuse;
   border-radius: 12px;
   padding: 2% 3%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 4%;
+  margin-right: 4%;
   
 }
 .app-name{
